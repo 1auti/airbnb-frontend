@@ -1,12 +1,9 @@
-Aquí tienes el archivo `README.md` en formato Markdown listo para usar:
-
----
 
 # Airbnb Clone - Frontend
 
 Este proyecto es el frontend de un clon de **Airbnb** desarrollado como una aplicación Full Stack utilizando **Angular 17** y **Spring Boot 3**. Permite a los usuarios explorar, buscar y reservar alojamientos con una interfaz moderna e intuitiva.
 
-![Vista previa del proyecto](./assets/preview.png) <!-- Asegúrate de actualizar la ruta de la imagen -->
+![Vista previa del proyecto](./air.png)
 
 ## Tabla de contenidos
 - [Características clave](#características-clave)
@@ -72,4 +69,4 @@ Los archivos resultantes se almacenarán en el directorio `dist/`.
 
 ---
 
-Este archivo `README.md` está listo para integrarse en el proyecto y proporciona una estructura clara y profesional. No olvides colocar tu imagen en la carpeta `assets` o la ruta que prefieras, y actualizar el enlace en `![Vista previa del proyecto](./assets/preview.png)`.
+
