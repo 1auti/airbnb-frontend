@@ -1,29 +1,50 @@
-# Airbnb clone (fullstack project) Spring boot 3, Angular 17, PrimeNG, PostgreSQL, Auth0 (2024) (Frontend)
+Airbnb Clone - Frontend
+Este proyecto es el frontend de un clon de Airbnb desarrollado como una aplicación Full Stack utilizando Angular 17 y Spring Boot 3. Este proyecto permite a los usuarios explorar, buscar y reservar alojamientos con una interfaz moderna e intuitiva.
 
-Angular frontend of the airbnb clone
+<!-- Asegúrate de actualizar la ruta de la imagen -->
 
-[Video tutorial](https://youtu.be/XriUV06Hkow)
+Tabla de contenidos
+Características clave
+Requisitos previos
+Instalación
+Uso
+Compilación
+Tecnologías utilizadas
+Características clave
+📅 Gestión de Reservas: Reserva y gestión de propiedades para viajeros y propietarios.
+🔍 Búsqueda avanzada: Filtrado por ubicación, fechas, número de huéspedes, camas y otros criterios.
+🔐 Autenticación y autorización: Gestión de usuarios y roles mediante Auth0 (OAuth2).
+🏢 Domain-Driven Design: Arquitectura estructurada para escalabilidad y fácil mantenimiento.
+Requisitos previos
+Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 
-[Spring boot Backend](https://github.com/C0de-cake/airbnb-clone-backend)
+NodeJS 20.11 LTS
+Angular CLI v17
+Un entorno de desarrollo compatible (VSCode o IntelliJ)
+Instalación
+Clona este repositorio y, en el directorio del proyecto, ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-### Key Features:
-- 📅 Booking management for travelers
-- 🏠 Landlord reservation management
-- 🔍 Search for houses by criteria (location, date, guests, beds, etc)
-- 🔐 Authentication and Authorization (Role management) with Auth0 (OAuth2)
-- 🏢 Domain-driven design
+bash
+Copy code
+npm install
+Uso
+Inicia el servidor de desarrollo utilizando el siguiente comando:
 
-## Usage
-### Prerequisites
-- [NodeJS 20.11 LTS](https://nodejs.org/dist/v20.11.1/node-v20.11.1.pkg)
-- [Angular CLI v17](https://www.npmjs.com/package/@angular/cli)
-- IDE ([VSCode](https://code.visualstudio.com/download), [IntelliJ](https://www.jetbrains.com/idea/download/))
+bash
+Copy code
+ng serve
+Luego, abre tu navegador y navega a http://localhost:4200/. La aplicación se actualizará automáticamente si realizas cambios en el código fuente.
 
-### Fetch dependencies
-``npm install``
+Compilación
+Para construir la aplicación para producción, ejecuta:
 
-### Launch dev server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+bash
+Copy code
+ng build
+Los archivos resultantes se almacenarán en el directorio dist/.
 
-### Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Tecnologías utilizadas
+Frontend: Angular 17, PrimeNG para componentes visuales.
+Backend: Spring Boot 3 (Proyecto completo Full Stack).
+Base de datos: PostgreSQL.
+Autenticación: Auth0 (OAuth2).
